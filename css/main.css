@@ -1,0 +1,9 @@
+.input{
+	display: block;
+	top: 5px;
+	left: 100px;
+	right: 100px;
+	/*margin: 0 200px;*/
+	padding: 20px 100px;
+	background: #0baa46;
+}
