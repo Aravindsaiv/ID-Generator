@@ -1,3 +1,8 @@
+.wrapper{
+	display: block;
+	background: #fff; 
+}
+
 .input{
 	display: block;
 	top: 5px;
@@ -5,5 +10,14 @@
 	right: 100px;
 	/*margin: 0 200px;*/
 	padding: 20px 100px;
-	background: #0baa46;
+	/*background: #0baa46;*/
+}
+
+#main-input{
+	margin: 20px 0px;
+	padding: 0 100px;
+}
+
+#view{
+	
 }

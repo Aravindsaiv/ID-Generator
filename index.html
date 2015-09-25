@@ -19,13 +19,41 @@
           <h2 class="brand">QR-Generator</h2>
         </div>
       </div>
-      <section class="input">
+      <section id="input">
         <div class="container">
-          <form class="" action="" method="post">
-            <input type="text" class="form-control" placeholder="Image Url"/>
-            <input type="text" class="form-control" placeholder="File to parse"/>
-            <button type="submit" class="btn btn-primary">Generate</button>
-          </form>
+          <center>
+            <form id="main-input" class="form-inline" action="" method="post">
+              <input type="text" id="input1" class="form-control" placeholder="Image Url"/>
+              <input type="text" id="input2" class="form-control" placeholder="File to parse"/>
+              <button type="submit" class="btn btn-primary">Generate</button>
+            </form>
+        </center>
+        </div>
+      </section>
+      <section id="view">
+        <div class="container">
+          <div class="row">
+            <div class="col col-md-6">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <center><h4>Base for the ID-card</h4></center>
+                </div>
+                <div class="panel-body">
+                  <img class="img-responsive" src=""/>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <center><h4>Generated card</h4></center>
+                </div>
+                <div class="panel-body">
+                  <img class="img-responsive" src=""/>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
